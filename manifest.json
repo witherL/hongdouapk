@@ -1,12 +1,12 @@
 {
     "@platforms" : [ "android", "iPhone", "iPad" ],
-    "id" : "H5DBE400A", /*应用的标识*/
+    "id" : "H57648CA1", /*应用的标识*/
     "name" : "红豆漫", /*应用名称，程序桌面图标名称*/
     "version" : {
-        "name" : "1.2.0", /*应用版本名称*/
-        "code" : 120
+        "name" : "1.2.9", /*应用版本名称*/
+        "code" : 129
     },
-    "description" : "什么都有，什么都看", /*应用描述信息*/
+    "description" : "红豆参上", /*应用描述信息*/
     "icons" : {
         "72" : "icon.png"
     },
@@ -91,7 +91,7 @@
         "splashscreen" : {
             "autoclose" : true, /*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
             "waiting" : false, /*是否在程序启动界面显示等待雪花，true表示显示，false表示不显示。*/
-            "delay" : 2000
+            "delay" : 4000
         },
         "statusbar" : {
             "immersed" : true
